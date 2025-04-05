@@ -15,4 +15,8 @@ export interface Team {
 	members: Member[];
 }
 
-export type { Member, Team, TeamProps };
+type ProfileType = {
+	top: string;
+};
+
+export type { Member, Team, TeamProps , ProfileType};

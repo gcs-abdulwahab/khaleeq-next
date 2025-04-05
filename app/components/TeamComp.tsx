@@ -1,4 +1,4 @@
-import { Member } from "../types/types";
+import { Member } from "../types";
 import Profile from "./Profile";
 
 interface TeamProps {

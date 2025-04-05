@@ -1,8 +1,8 @@
-import { Team } from "../types/types";
+import { Team } from "../types";
 
 export async function fetchTeams(): Promise<Team[]> {
-	//const apiKey = process.env.NEXT_PUBLIC_API_MASTER_KEY;
-	const apiKey = "$2a$10$ebWQnbu5yPKRLRjrKlcMKemJqar.sfgnXa9VHBIZ/JmS8khMlUK3W";
+	const apiKey = process.env.NEXT_PUBLIC_API_MASTER_KEY;
+	//const apiKey = "$2a$10$ebWQnbu5yPKRLRjrKlcMKemJqar.sfgnXa9VHBIZ/JmS8khMlUK3W";
 
 	console.log(
 		"API Key from .env.local:",
