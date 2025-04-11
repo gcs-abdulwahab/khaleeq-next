@@ -1,16 +1,8 @@
 import HotelCard from "../components/HotelCard";
 
-type ProfileType = {
-	top: string;
-};
-
 const page = () => {
-	const data: ProfileType = {
-		top: "Y",
-	};
-
 	return (
-		<>
+		<div className="flex flex-col gap-4 p-4 mx-auto">
 			{/* pass data in select card */}
 			{/* <SelectCard {...data} /> */}
 
@@ -27,7 +19,7 @@ const page = () => {
 				reviewCount={28}
 				price="$26,000"
 			/>
-		</>
+		</div>
 	);
 };
 

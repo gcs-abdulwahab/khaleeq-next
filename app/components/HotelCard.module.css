@@ -1,0 +1,88 @@
+.card {
+	position: relative;
+	border: 1px solid #eaeaea;
+	border-radius: 8px;
+	padding: 16px;
+	max-width: 300px;
+	font-family: Arial, sans-serif;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.discountBadge {
+	position: absolute;
+	top: -10px;
+	right: 10px;
+	background-color: #ff4757;
+	color: white;
+	padding: 4px 8px;
+	border-radius: 12px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.metaInfo {
+	display: flex;
+	gap: 8px;
+	margin-bottom: 8px;
+	font-size: 12px;
+	color: #666;
+}
+
+.metaItem {
+	background-color: #f1f2f6;
+	padding: 2px 6px;
+	border-radius: 4px;
+}
+
+.adBadge {
+	display: inline-block;
+	background-color: #3742fa;
+	color: white;
+	padding: 2px 6px;
+	border-radius: 4px;
+	font-size: 10px;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.title {
+	margin: 8px 0;
+	font-size: 18px;
+	color: #2f3542;
+}
+
+.details {
+	display: flex;
+	gap: 12px;
+	font-size: 14px;
+	color: #57606f;
+	margin-bottom: 12px;
+}
+
+.ratingPrice {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rating {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.ratingValue {
+	font-weight: bold;
+	color: #2f3542;
+}
+
+.reviewCount {
+	font-size: 12px;
+	color: #666;
+}
+
+.price {
+	font-size: 18px;
+	font-weight: bold;
+	color: #2f3542;
+}

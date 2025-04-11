@@ -57,9 +57,11 @@ const HotelCard: React.FC<HotelCardProps> = ({
 
 			<style jsx>{`
 				.card {
+				
 					position: relative;
 					border: 1px solid #eaeaea;
 					border-radius: 8px;
+
 					padding: 16px;
 					max-width: 300px;
 					font-family: Arial, sans-serif;
