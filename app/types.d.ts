@@ -19,4 +19,12 @@ type ProfileType = {
 	top: string;
 };
 
-export type { Member, Team, TeamProps , ProfileType};
+type Payment = {
+	id: string;
+	amount: number;
+	status: "pending" | "processing" | "success" | "failed";
+	email: string;
+};
+
+
+export type { Member, Team, TeamProps , ProfileType , Payment};

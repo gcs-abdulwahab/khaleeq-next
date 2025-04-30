@@ -1,5 +1,13 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+/* DaisyUI plugin is now configured in tailwind.config.js */
+
+/*  import daisy ui */
+/* @import "daisyui"; */
+@plugin "daisyui" {
+  themes: ["cupcake"];
+}
+
 
 @custom-variant dark (&:is(.dark *));
 
@@ -125,6 +133,6 @@
   div {
     @apply bg-card text-card-foreground;
   }
-  
+
 }
 
